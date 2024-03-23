@@ -4,11 +4,17 @@ function Hello() {
       <div className="bg-[#0e2408] flex flex-col justify-center items-center h-[120vh] relative">
         <div>
           <div className="text-[140px] leading-none font-black text-green-500">
-            <h2 className="text-center">DO IT FOR THE PLANET.</h2>
-            <h2 className="text-center">DO IT FOR YOUR BUSINESS.</h2>
-            <h2 className="text-center">THE BETTER YOUR ESG</h2>
-            <h2>SCORE GETS, THE BIGGER</h2>
-            <h2 className="text-center">THE DISCOUNTS</h2>
+            <h2 className="text-center hover:text-white">
+              DO IT FOR THE PLANET.
+            </h2>
+            <h2 className="text-center hover:text-white">
+              DO IT FOR YOUR BUSINESS.
+            </h2>
+            <h2 className="text-center hover:text-white">
+              THE BETTER YOUR ESG
+            </h2>
+            <h2 className="hover:text-white">SCORE GETS, THE BIGGER</h2>
+            <h2 className="text-center hover:text-white">THE DISCOUNTS</h2>
           </div>
         </div>
 

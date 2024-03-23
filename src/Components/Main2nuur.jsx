@@ -11,7 +11,7 @@ function Main2() {
       <div className="  items-center justify-center  flex flex-col ">
         <div className="p-[50px] flex flex-col gap-4">
           <p className="text-black text-4xl">
-            We are on a mission to help good businesses grow. This is why we
+            We are on a missiion to help good businesses grow. This is why we
             reward
           </p>
           <p className="text-black text-4xl">

@@ -20,8 +20,8 @@ function Charts() {
 
         <img className="w-[1350px] rounded-3xl" src="clouu.webp" alt="" />
       </div>
-      <div className="flex w-[2700px] gap-[100px]  border-b-2 border-gray-600 py-[80px]">
-        <div className="flex flex-col gap-[400px] w-[50%]">
+      <div className="flex w-[2700px] gap-[100px]  border-b-2 border-gray-600 py-[80px] ">
+        <div className="flex flex-col gap-[400px] w-[50%] ">
           <div className="flex flex-col gap-[100px]">
             <div className="w-[100px] h-[100px] text-3xl font-bold bg-green-500 rounded-full border flex items-center justify-center text-black">
               02
