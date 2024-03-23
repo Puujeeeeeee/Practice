@@ -22,7 +22,7 @@ function Last() {
           “Running a startup apparel business can be diffiult; and managing
           cashflow has always been one of our most important challenges. Kikin
           helped us navigate this with their quick and easy application process
-          and rapid turn around time. I've already recommended them to a number
+          and rapid turn around tie. I've already recommended them to a number
           of other businesses we know!
         </p>
         <div className="flex flex-col gap-[40px]">
@@ -33,9 +33,9 @@ function Last() {
           />
           <div className="flex items-center gap-[600px] ">
             <p className="text-4xl font-normal flex text-black">
-              Jojo Regan, Founder at Manors Golf
+              Jojo Regacc, Founder at Manors Golf
             </p>
-            <div className="flex gap-[50px] cursor-pointer">
+            <div className="flex gap-[50px] cursor-pointerd">
               <div className="w-[150px] h-[150px] border rounded-full border-green-600 hover:bg-green-500 hover:text-white duration-300">
                 <img src="left.svg" alt="" />
               </div>

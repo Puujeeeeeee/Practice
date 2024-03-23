@@ -29,7 +29,7 @@ function Calculate() {
           <div className=" ">
             <div className=" py-[50px] text-4xl leading-snug text-white">
               Your funding – and your fee – is based on how financially healthy{" "}
-              <br /> and ESG aware your company is. The more ESG accreditations
+              <br /> and ESG awareyour company is. The moree ESG accreditations
               <br />
               you have, the lower your fee.
             </div>
@@ -39,8 +39,8 @@ function Calculate() {
           </div>
         </div>
 
-        <div className="w-[50%] border border-gray-400 p-[80px] rounded-xl">
-          <div className="flex flex-col">
+        <div className="w-[50%] border border-gray-400 p-[30px] rounded-xl">
+          <div className="flex flex-col gap-[40px]">
             <div className="flex items-center">
               <img className="w-[80px]" src="copy.svg" alt="" />{" "}
               <p className="text-white text-4xl">Invoice Amount</p>
@@ -53,9 +53,84 @@ function Calculate() {
               <img className="w-[80px]" src="copy.svg" alt="" />{" "}
               <p className="text-white text-4xl">Credit rating</p>
             </div>
+            <input
+              type="range"
+              min={0}
+              max="100"
+              value="25"
+              className="range"
+              step="25"
+            />
+            <div className="w-[50%] flex justify-between text-xs px-2">
+              <span>|</span>
+              <span>|</span>
+              <span>|</span>
+              <span>|</span>
+              <span>|</span>
+            </div>
+            <div className="rating rating-lg rating-half">
+              <input type="radio" name="rating-10" className="rating-hidden" />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-1"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-10"
+                className="bg-green-500 mask mask-star-2 mask-half-2"
+              />
+            </div>
+            <div className="mockup-code bg-primary text-primary-content">
+              <pre>
+                <code>Hello World</code>
+              </pre>
+            </div>
           </div>
           <div className="flex flex-col gap-[100px] py-[200px] border-b-2">
             <p className="text-white text-4xl">Claim your discount</p>
+
             <div className="flex gap-[50px]">
               <img
                 className="w-[200px] border rounded-xl "
@@ -77,8 +152,6 @@ function Calculate() {
                 src="climate.svg"
                 alt=""
               />
-              
-
             </div>
           </div>
         </div>

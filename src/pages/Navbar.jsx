@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { useRef } from "react";
+
 function Navbar() {
   return (
     <div className=" sticky top-0 z-50">
@@ -18,6 +21,15 @@ function Navbar() {
           </div>
           <div className="border border-black rounded-xl text-white p-7 bg-green-500">
             GET FUNDING
+          </div>
+
+          <div className="border flex gap-[40px] border-black p-[30px] fixed bottom-8 bg-[#f3ede4] rounded-xl flex-wrap">
+            <img className="w-[50px]" src="graph.svg" alt="" />
+            <div className="leading-none flex items-center flex-col">
+              <p className="text-black font-bold">Calculate</p>
+              <p className="text-black font-bold">Your funding</p>
+            </div>
+            <img className="w-[50px]" src="bottom.svg" alt="" />
           </div>
         </div>
       </div>
